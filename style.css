@@ -1,0 +1,44 @@
+/* Estilos para las secciones */
+.jugador {
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #000dff;
+  padding: 10px;
+  position: relative;
+  display: flex; /* Uso de Flexbox */
+  flex-direction: column; /* Columnas para el contenido */
+  align-items: center; /* Centrar contenido verticalmente */
+}
+
+/* Estilos para las imágenes en las secciones */
+.jugador .section-image {
+  max-width: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Estilos para la navegación */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ff8800;
+}
+
+.nav ul li {
+  margin: 10px;
+}
+
+.nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Estilos para el logotipo */
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
